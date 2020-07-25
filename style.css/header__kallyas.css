@@ -1,0 +1,16 @@
+.header__kallyas{
+    height: 100vh;
+    background-image: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker-gary-vee-2c.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    transform: translate3d(0px, 10px, 0px);
+    position: relative;
+    
+}
+
+.header__kallyasImg {
+    line-height: 1;
+    font-size: 30px;
+    width: 20% ;
+}
