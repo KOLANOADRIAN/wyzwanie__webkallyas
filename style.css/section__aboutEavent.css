@@ -1,0 +1,64 @@
+.section__aboutEavent {
+    width: 1200px;
+    max-width: 100%;
+    height: 70vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25vh;
+    display: flex;
+}
+
+.section__aboutEaventAsiteCaption {
+    width: 50%;
+    height: 110%;
+    margin-right: 10px;
+    display: block;
+}
+
+.section__aboutEaventHeading {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 40px;
+  
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.section__aboutEaventParagraf {
+    color: #05003e;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 200;
+}
+.section__aboutEaventButton {
+    color: #ffffff;
+    padding: 15px 20px;
+    background: #1fe8cd;
+    margin-top: 70px;
+    
+}
+.section__aboutEaventImg {
+    width: 50%;
+    height: 90%;
+    float: right;
+    background: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/08/image-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+   
+}
+.section__aboutEaventBlue {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 110, 0.589);
+    position: absolute;
+    z-index: 4;
+}
+.section__aboutEaventImg {
+
+}
