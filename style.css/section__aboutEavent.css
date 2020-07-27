@@ -4,7 +4,8 @@
     height: 70vh;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25vh;
+
+    padding-top: 14vh;
     display: flex;
 }
 
@@ -40,7 +41,7 @@
 }
 .section__aboutEaventImg {
     width: 50%;
-    height: 90%;
+    height: 100%;
     float: right;
     background: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/08/image-2.jpg);
     background-repeat: no-repeat;

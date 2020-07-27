@@ -1,0 +1,18 @@
+
+.event__startSpanArea {
+    display: flex;
+    flex-direction: row;
+}
+.event__startSpan {
+    margin: 10px ;
+    flex-grow: 1;
+    background: #1fe8cd;
+    text-align: center;
+    justify-content: center;
+}
+
+.span__caption {
+
+}
+
+.span__paragraf {}

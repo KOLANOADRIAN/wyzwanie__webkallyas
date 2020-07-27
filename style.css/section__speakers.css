@@ -1,0 +1,123 @@
+.section__speakers {
+    width: 100%;
+    /* max-width: 100%; */
+    height: 70vh;
+    margin-top: 15vh;
+    /* margin-bottom: 20vh; */
+    padding-top: 12vh;
+    position: relative;
+    z-index: 3;
+}
+
+.section__speakers--blue {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 110, 0.589);
+    position: absolute;
+    z-index: 3;
+}
+
+.section__speakersText {
+    width: 25%;
+    height: 100%;
+    background-color: rgb(10, 10, 110);
+    position: absolute;
+}
+
+.section__speakersCaption {
+    color: #1fe8cd;
+    position: fixed;
+    z-index: 5;
+}
+
+.section__speakersParagraf {
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 200;
+    text-align: right;
+    position: absolute;
+    top: 130px;
+    right: 20px;
+    z-index: 4;
+}
+
+.section__speakersCaption--top {
+    color: #1fe8cd;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    line-height: 26px;
+    font-weight: 700;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    z-index: 4;
+}
+
+.section__speakersCaption--bottom {
+    color: #1fe8cd;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    line-height: 36px;
+    font-weight: 400;
+    position: absolute;
+    top: 300px;
+    right: 20px;
+    z-index: 4;
+}
+
+.section__speakersImgMarkTomas {
+    background-image: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    left: 25%;
+    width: 25%;
+    height: 100%;
+}
+
+.section__speakersImgKateWilliam {
+    background-image: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    width: 25%;
+    height: 100%;
+}
+
+.section__speakersImgRobertFred {
+    background-image: url(https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/12/speaker_3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: scroll;
+    overflow: hidden;
+    position: absolute;
+    left: 75%;
+    width: 25%;
+    height: 100%;
+}
+
+.section__speakersCaptionImg {
+    color: #1fe8cd;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    z-index: 40;
+}
+
+.section__speakersImgParagraf {
+    color: #ffffff;
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    z-index: 5;
+}

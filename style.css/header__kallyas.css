@@ -6,7 +6,6 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-/*     transform: translate3d(0px, 10px, 0px); */
     background-attachment: fixed, fixed;
     position: relative;
     top: 0;
@@ -24,7 +23,6 @@
     top: 30px;
     left:17%;
   
-
 }
 
 .header__kallyasCaption--top {

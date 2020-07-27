@@ -37,18 +37,18 @@
     <link rel="stylesheet" type="text/css" href="./style.css/section__ticket.css">
     <link rel="stylesheet" type="text/css" href="./style.css/article__newsletter.css">
     <link rel="stylesheet" type="text/css" href="./style.css/article__eventStart.css">
-    <link rel="stylesheet" type="text/css" href=".">
+    <link rel="stylesheet" type="text/css" href="./style.css/event__start.css">
 </head>
 
 <body>
     <nav class="main-navigation">
         <div class="main-navigation_inner">
+            <li class="main-navigation_menu-item">
+                <a href="#kallyas" class="main_navigation_link main_navigation_link--left">
+                    KALLYAS
+                </a>
+            </li>
             <ul class="main-navigation_menu js-main-navigation__menu">
-                <li class="main-navigation_menu-item">
-                    <a href="#kallyas" class="main_navigation_link main_navigation_link--left">
-                        KALLYAS
-                    </a>
-                </li>
                 <li class="main-navigation_menu-item">
                     <a href="#about__event" class="main_navigation_link">
                         ABOUT EVENT
@@ -103,18 +103,25 @@
         </header>
         <article class="article__eventStart">
             <h3 class="article__eventStartHeading">EVENT START IN:</h3>
-            <ul class="">
-                <li class="kl-counter-li"><span class="kl-counter-value">215</span><span
-                        class="kl-counter-unit ">days</span></li>
-                <li class="kl-counter-li"><span class="kl-counter-value">2</span><span
-                        class="kl-counter-unit ">hours</span></li>
-                <li class="kl-counter-li"><span class="kl-counter-value">50</span><span
-                        class="kl-counter-unit ">min</span></li>
-                <li class="kl-counter-li"><span class="kl-counter-value">7</span><span
-                        class="kl-counter-unit ">sec</span></li>
-            </ul>
+            <span class="event__startSpanArea">
+                <span class="event__startSpan">
+                    <h3 class="span__caption">203</h3>
+                    <p class="span__paragraf">DAYS</p>
+                </span>
+                <span class="event__startSpan">
+                    <h3 class="span__caption">2</h3>
+                    <p class="span__paragraf">HOURS</p>
+                </span>
+                <span class="event__startSpan">
+                    <h3 class="span__caption">50</h3>
+                    <p class="span__paragraf">MIN</p>
+                </span>
+                <span class="event__startSpan">
+                    <h3 class="span__caption">7</h3>
+                    <p class="span__paragraf">SEC</p>
+                </span>
+            </span>
         </article>
-
         <section id="about__event" class="section__aboutEavent">
             <aside class="section__aboutEaventAsiteCaption">
                 <h3 class="section__aboutEaventHeading">
@@ -133,24 +140,94 @@
             </aside>
             <aside class="section__aboutEaventImg">
                 <div class="section__aboutEaventBlue"></div>
-                <!-- <img src="https://demo.kallyas.net/conference2/wp-content/uploads/sites/115/2019/08/image-2.jpg" class="section__aboutEaventImg" title="" alt=""> -->
             </aside>
         </section>
         <section id="speakers" class="section__speakers">
-            <div>
-
+            <span class="section__speakers--blue"></span>
+            <div class="section__speakersText">
+                <h3 class="section__speakersCaption--top">
+                    SPEAKERS
+                </h3>
+                <p class="section__speakersParagraf">
+                    Maecenas ornare nisl non <br>maximus feugiat. Vivamus <br> et ligula imperdiet,<br> sollicitudin
+                    odio nec.
+                </p>
+                <h4 class="section__speakersCaption--bottom">
+                    ALL SPEAKERS
+                </h4>
             </div>
-            <div>
-                
+            <div class="section__speakersImgMarkTomas">
+                <h4 class="section__speakersCaptionImg">
+                    MARK THOMAS
+                </h4>
+                <p class="section__speakersImgParagraf">
+                    CEO at BusinessWRK
+                </p>
             </div>
-            <div>
-                
+            <div class="section__speakersImgKateWilliam">
+                <h4 class="section__speakersCaptionImg">
+                    KATE WILLIAM
+                </h4>
+                <p class="section__speakersImgParagraf">
+                    CPO at Oracle
+                </p>
             </div>
-            <div>
-                
+            <div class="section__speakersImgRobertFred">
+                <h4 class="section__speakersCaptionImg">
+                    ROBERT FRED
+                </h4>
+                <p class="section__speakersImgParagraf">
+                    CSO & BA at Envato
+                </p>
             </div>
         </section>
         <section id="ticket" class="section__ticket">
+            <div class="section__ticketContainer">
+                <aside class="section__ticketLeft">
+                    <h3 class="section__ticketLeftCaption--top">
+                        TICKET
+                    </h3>
+                    <p class="section__ticketLeftParagraf">
+                        Fusce mollis blandit mi vitae accumsan. Suspendisse nunc dolor, vulputate id gravida vitae,
+                        fringilla et lacus. Mauris ut metus vitae turpis congue posuere. Nullam aliquam ullamcorper
+                        ipsum accumsan efficitur.
+                    </p>
+                    <h4 class="section__ticketLeftCaption--bottom">
+                        Event starts in
+                    </h4>
+                    <span class="event__startSpanArea">
+                        <span class="event__startSpan">
+                            <h3 class="span__caption">203</h3>
+                            <p class="span__paragraf">DAYS</p>
+                        </span>
+                        <span class="event__startSpan">
+                            <h3 class="span__caption">2</h3>
+                            <p class="span__paragraf">HOURS</p>
+                        </span>
+                        <span class="event__startSpan">
+                            <h3 class="span__caption">50</h3>
+                            <p class="span__paragraf">MIN</p>
+                        </span>
+                        <span class="event__startSpan">
+                            <h3 class="span__caption">7</h3>
+                            <p class="span__paragraf">SEC</p>
+                        </span>
+                    </span>
+                </aside>
+                <aside class="section__ticketRight">
+                    <img class="section__ticketRightImg"
+                        src="https://youcode.pl/html-css-wyzwanie-2/files/fingerprint-2.png" alt="fingerprint-2
+                        title=" fingerprint-2.png">
+                    <h3 class="section__ticketRightCaption">ACCESS TICKET</h3>
+                    <p class="section__ticketRightParagraf">FOR ONE PERSON</p>
+                    <h3 class="section__ticketRightCaption--bottom">$29</h3>
+                    <p class="section__ticketRightParagraf--bottom">EVENT ACCESS<br>
+                        CATERING FOOD<br>
+                        TALK WITH SPEAKERS<br>
+                        BONUS + 2 FREE ACCESS <br>TO FUTURE EVENTS</p>
+                    <button class="section__ticketRightButton">BUY TI</button>
+                </aside>
+            </div>
 
         </section>
         <article id="newsletter" class="article__newsletter">
