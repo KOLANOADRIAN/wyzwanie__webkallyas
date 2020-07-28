@@ -10,3 +10,13 @@
     background-color: #1fe8cd;
     
 }
+
+.article__eventStartHeading {
+    margin-top: 20px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #ffffff;
+}

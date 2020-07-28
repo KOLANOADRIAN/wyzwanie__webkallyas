@@ -1,3 +1,8 @@
+const welcome = () => {
+    console.log("Cześć :)");
+}
+welcome();
+
 (() => {
     const button = document.querySelector(".js-main-navigation__mobile-button");
     const menu = document.querySelector(".js-main-navigation__menu")

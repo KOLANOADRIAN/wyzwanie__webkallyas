@@ -24,6 +24,9 @@
     <meta name="msapplication-TileImage"
         content="https://demo.kallyas.net/conference2/wp-content/uploads/2017/06/cropped-27283439-f55d79e4-54fc-11e7-92e4-25e0d2f34f68-270x270.png">
 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
         integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
@@ -103,7 +106,7 @@
         </header>
         <article class="article__eventStart">
             <h3 class="article__eventStartHeading">EVENT START IN:</h3>
-            <span class="event__startSpanArea">
+            <span class="article__eventStartSpan event__startSpanArea">
                 <span class="event__startSpan">
                     <h3 class="span__caption">203</h3>
                     <p class="span__paragraf">DAYS</p>
@@ -195,20 +198,20 @@
                     <h4 class="section__ticketLeftCaption--bottom">
                         Event starts in
                     </h4>
-                    <span class="event__startSpanArea">
-                        <span class="event__startSpan">
+                    <span class="section__ticketSpan event__startSpanArea">
+                        <span class="event__startSpanCube">
                             <h3 class="span__caption">203</h3>
                             <p class="span__paragraf">DAYS</p>
                         </span>
-                        <span class="event__startSpan">
+                        <span class="event__startSpanCube">
                             <h3 class="span__caption">2</h3>
                             <p class="span__paragraf">HOURS</p>
                         </span>
-                        <span class="event__startSpan">
+                        <span class="event__startSpanCube">
                             <h3 class="span__caption">50</h3>
                             <p class="span__paragraf">MIN</p>
                         </span>
-                        <span class="event__startSpan">
+                        <span class="event__startSpanCube">
                             <h3 class="span__caption">7</h3>
                             <p class="span__paragraf">SEC</p>
                         </span>
@@ -228,10 +231,17 @@
                     <button class="section__ticketRightButton">BUY TI</button>
                 </aside>
             </div>
-
         </section>
         <article id="newsletter" class="article__newsletter">
-
+            <!-- <h2 class="article__newsletterCaptionShadow">NEWSLETTER</h2> -->
+            <h3 class="article__newsletterCaption">NEWSLETTER</h3>
+            <p class="article__newsletterParagraf">Subscribe to the newsletter to receive the latest informations and
+                news <br>
+                about Kallyas Business Conference.</p>
+            <form class="article__newsletterForm">
+                <input class="article__newsletterFormInput" type="email" placeholder="your.address@email.com">
+                <button class="article__newsletterFormButton">JOIN US</button>
+            </form>
         </article>
 
     </div>
