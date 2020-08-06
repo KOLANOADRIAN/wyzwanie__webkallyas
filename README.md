@@ -1,5 +1,5 @@
 # wyzwanie__webkallyas
-chaleng2 with YOUCODE
+challenge2 with YOUCODE
 ![Screenshot](files.og.png)
 ## https://kolanoadrian.github.io/wyzwanie__webkallyas/.
 
