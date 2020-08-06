@@ -7,14 +7,24 @@
     padding-top: 14vh;
     display: flex;
 }
+@media (max-width:668px) {
+    .section__aboutEavent {
+        display: block;
 
+    }
+}
 .section__aboutEaventAsiteCaption {
     width: 50%;
     height: 110%;
     margin-right: 10px;
-    display: block;
+   
 }
-
+@media (max-width:668px) {
+    .section__aboutEaventAsiteCaption {
+        background-color: lime;
+        width: 100%;
+    }
+}
 .section__aboutEaventHeading {
     font-family: "Open Sans", Helvetica, Arial, sans-serif;
     font-size: 40px;
@@ -55,6 +65,13 @@
     overflow: hidden;
     position: relative;
     z-index: 3;
+}
+@media(max-width:668px) {
+    .section__aboutEaventImg {
+        display: block;
+        width: 100%;
+      
+    }
 }
 
 .section__aboutEaventBlue {
