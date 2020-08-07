@@ -1,6 +1,6 @@
 # wyzwanie__webkallyas
 challenge2 with YOUCODE
-![Screenshot](files.og.png)
+![Screenshot](image.jpg)
 ## https://kolanoadrian.github.io/wyzwanie__webkallyas/.
 
 11 documents css
